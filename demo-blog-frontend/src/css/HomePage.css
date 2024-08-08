@@ -1,0 +1,43 @@
+/* HomePage.css */
+
+.my-carousel .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for captions */
+    color: white; /* White text for better contrast */
+  }
+  
+  .text-image-section {
+    margin: 50px 0;
+    padding: 20px;
+  }
+  
+  .text-side {
+    padding: 20px;
+  }
+  
+  .text-side h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .text-side p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .text-side .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .image-side img {
+    border-radius: 8px; /* Rounded corners for the image */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .text-side, .image-side {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  
